@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #673BB7;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav{
+    position: sticky;
+}
+
+ul{
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 10px 10px;
+}
+
+li a{
+    font-size: 25px;
+    color: white;
+}
+
+li:hover{
+    background-color: #673BB7;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    color: white;
+}
+
+.heading h3{
+    color: rgb(200, 193, 193);
+}
+
+.parent{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.items{
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item{
+    background-color: white;
+    color: rgb(144, 141, 141);
+    width: 230px;
+    padding: 10px;
+    border-radius: 5px; 
+    margin: 30px 50px;
+}
+
+.item p{
+    margin: 0;
+}
+
+.item-p{
+    margin: 0;
+    background-color: #7a49d7;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.item-img{
+    width: 220px;
+    height: 220px;
+}
+
+.item-heading{
+    color: black;
+}
+
+.item-price{
+    color: black;
+    font-weight: bold;
+}
+
+.cart{
+    width: 105px;
+    height: 50px;
+    background-color: rgb(220, 215, 215);
+    color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart img{
+    width: 40px;
+    display: inline;
+}
+
+.buy{
+    width: 105px;
+    height: 50px;
+    color: white;
+    background-color: #7a49d7;
+    border: none;
+    border-radius: 5px;
+}
+
+.buy img{
+    width: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 250px 260px 250px 280px;
+    grid-gap: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    text-align: center;
+    display: inline-grid;
+    padding: 10px 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.card h3{
+    color: #4CB050;
+    margin: 10px 0 0 0;
+}
+
+.card p span{
+    font-size: 30px;
+}
+
+.card button{
+    height: 40px;
+    background-color: #4CB050;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.pricing{
+    text-align: left;
+}

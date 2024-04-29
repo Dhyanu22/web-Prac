@@ -1,0 +1,139 @@
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    height: auto;
+    overflow-y: hidden;
+}
+
+h1{
+    margin: 0;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+/* .form{
+    height: 100%;
+    width: 50%;
+} */
+
+.practical2 img{
+    width: 100%;
+    height: 100%
+}
+
+form{
+    width: 35%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.details{
+    margin-top: 30px;
+}
+
+.detailData{
+    font-size: larger;
+    position: relative;
+    height: 65px;
+}
+
+.detailData label{
+    display: block;
+    position: relative;
+    left: 25%;
+    width: 260px;
+    background-color: rgb(230, 227, 227);
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.detailData label img{
+    width: 25px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.detailData label span{
+    font-size: 35px;
+}
+
+.detailData label input{
+    width: 200px;
+    height: 30px;
+    margin: 0;
+    background-color: rgb(230, 227, 227);
+    border: 0;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: medium;
+    font-weight: bold;
+    color: grey;
+}
+
+button{
+    margin: 5px 0 20px 0;
+    width: 270px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: chartreuse;
+}
+
+
+
+.detailData-sign{
+    font-size: larger;
+    position: relative;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.detailData-sign label{
+    display: block;
+    position: relative;
+    left: 25%;
+    width: 260px;
+    background-color: rgb(230, 227, 227);
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.detailData-sign label img{
+    width: 25px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.detailData-sign label span{
+    font-size: 35px;
+}
+
+.detailData-sign label input{
+    width: 200px;
+    height: 30px;
+    margin: 0;
+    background-color: rgb(230, 227, 227);
+    border: 0;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: medium;
+    font-weight: bold;
+    color: grey;
+}
